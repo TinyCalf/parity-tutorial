@@ -1,0 +1,1 @@
+curl --data '{"method":"parity_newAccountFromSecret","params":["0xf3ccd6144c0749f74aaa3601927484c96e36b2eb292a39acae2e38d3c3cdc1c5","123"],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST 127.0.0.1:8545
